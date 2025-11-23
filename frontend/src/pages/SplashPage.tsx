@@ -1,7 +1,7 @@
 function SplashPage() {
   return (
     <div>
-      
+      <p>Splash</p>
     </div>
   );
 }
