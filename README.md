@@ -1,13 +1,13 @@
-# NextUP — Discover Tomorrow’s Sports Stars
+# NextUP - Discover Tomorrow's Sports Stars
 
-**NextUP** is a web application designed to give casual sports fans a more personalized, engaging way to explore rising prospects across minor leagues — starting with the Minor League Baseball. The goal is simple:
+**NextUP** is a web application designed to give casual sports fans a more personalized, engaging way to explore rising prospects across minor leagues - starting with the Minor League Baseball. The goal is simple:
 **make it easier for fans, and especially everyday fans, to follow emerging talent and give under-the-radar athletes more visibility.**
 
 ---
 
 ## Purpose
 
-Major sports coverage overwhelmingly focuses on superstars and the big leagues. NextUp flips that script by highlighting the players who are *about to break out* — the ones grinding in development leagues with limited exposure.
+Major sports coverage overwhelmingly focuses on superstars and the big leagues. NextUp flips that script by highlighting the players who are *about to break out* - the ones grinding in development leagues with limited exposure.
 
 NextUp aims to:
 
@@ -27,6 +27,7 @@ NextUp aims to:
 * **ML-Driven Insights (Planned)** - Predictive modeling for player growth trajectories
 * **Major League Integration (Planned)** - Also track prospect performance when pulled up
 * **Player Graduation (Planned)** - Graduate players that are no longer consider prospects
+
 ---
 
 ## Planned Minor Leagues
