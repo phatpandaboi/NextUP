@@ -1,7 +1,15 @@
-function Footer() {
+import type { FooterProps } from "@/types/Footer.types";
+
+function Footer({ links }: FooterProps) {
   return (
     <footer>
-      {/* Footer content */}
+      {/* Navigation Links */}
+
+      {/* Logo */}
+      <div></div>
+
+      {/* Copyright / Legal */}
+      <p></p>
     </footer>
   );
 }
