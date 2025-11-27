@@ -6,15 +6,31 @@ NextUP is a web application for viewing prospect stats, rankings, and scouting e
 ### Tech Stack
 - **Frontend:** React, TypeScript, Vite, TailwindCSS, Shadcn UI, Storybook
 - **Backend:** Python
-- **Database:**
-- **Deployment:**
+- **Database:** TBD
+- **Deployment:** TBD
 - **Version Control:** GitHub
 
 ---
 
 ## 2: Project Structure
+```text
 /backend
+  /src
 /frontend
+  /storybook
+  /public
+  /src
+    /assets
+    /components
+    /config
+    /lib - (or util)
+    /pages
+    /routes
+    /styles
+    /types
+    App.tsx
+    main.tsx
+```
 
 ---
 
@@ -79,19 +95,19 @@ Shadcn UI components
 ---
 
 ## 6: API Documentation
-6.1 Base URL: https://api.example.com
+### 6.1 Base URL: https://api.example.com
 
-6.2 Endpoints:
-GET /players
+### 6.2 Endpoints:
+#### 6.21 GET /players
 Returns a list of players.
-
 Response:
 ```json
 [
   { "id": 1, "name": "John Doe", "position": "SG" }
 ]
 ```
-POST /auth/login
+#### 6.22 POST /auth/login
+API call to login
 Body:
 ```json
 { "email": "", "password": "" }
