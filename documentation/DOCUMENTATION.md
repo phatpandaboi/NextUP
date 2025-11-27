@@ -1,0 +1,141 @@
+# DOCUMENTATION
+
+## 1: Overview
+NextUP is a web application for viewing prospect stats, rankings, and scouting evaluations.
+
+### Tech Stack
+- **Frontend:** React, TypeScript, Vite, TailwindCSS, Shadcn UI, Storybook
+- **Backend:** Python
+- **Database:**
+- **Deployment:**
+- **Version Control:** GitHub
+
+---
+
+## 2: Project Structure
+/backend
+/frontend
+
+---
+
+## 3: Installation & Setup
+
+### Prerequisites
+- Node.js 18+
+- npm / pnpm / yarn
+
+### Install
+```bash
+git clone <repo-url>
+cd project
+npm install
+```
+
+### Run Dev Server
+```bash
+npm run dev
+```
+
+### Build
+```bash
+npm run build
+```
+
+### Preview Build
+```bash
+npm run preview
+```
+
+---
+
+## 4: Environment Variables
+Create a .env file with:
+
+```ini
+VITE_API_URL=https://api.example.com
+VITE_ANOTHER_KEY=xxxxxx
+```
+
+---
+
+## 5: Frontend Architecture
+### 5.1 Component Structure
+Reusable UI components in /components
+
+Feature-specific components in /features/<feature-name>
+
+Types in /types
+
+Shared utilities in /lib
+
+State Management: Local state via React hooks
+
+Global state via "TBD"
+
+Styling: TailwindCSS
+
+Shadcn UI components
+
+---
+
+## 6: API Documentation
+6.1 Base URL: https://api.example.com
+
+6.2 Endpoints:
+GET /players
+Returns a list of players.
+
+Response:
+```json
+[
+  { "id": 1, "name": "John Doe", "position": "SG" }
+]
+```
+POST /auth/login
+Body:
+```json
+{ "email": "", "password": "" }
+```
+
+---
+
+## 7: Visualizations (D3.js)
+
+### 7.1. Bar Chart — Player PPG
+Endpoint: /stats/ppg
+
+Location: /visualizations/ppg
+
+### 7.2. Scatter Plot — Height vs Wingspan
+Endpoint: /measurements
+
+### 7.3. Line Chart — Player Growth Over Season
+Endpoint: /season/progression
+
+---
+
+## 8: Testing
+Storybook
+### Run Storybook:
+```bash
+npm run storybook
+```
+### Test Documentation:
+TBD
+
+### Unit Tests (Vitest/Jest)
+TBD
+
+---
+
+## 9: Deployment
+TBD
+
+---
+
+## 10: Troubleshooting
+Common issues include:
+- CORS errors
+- Module resolution issues
+- Tailwind config errors
+- Storybook alias/path issues
