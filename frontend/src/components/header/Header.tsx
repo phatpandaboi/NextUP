@@ -9,7 +9,7 @@ import {
 
 import type { HeaderProps } from "@/types/Header.types";
 
-export function Header({ title, links }: HeaderProps) {
+function Header({ title, links }: HeaderProps) {
   return (
     <header className="w-full border-b bg-background/60 backdrop-blur supports-[backdrop-filter]:bg-background/30">
       <div className="container flex h-16 items-center justify-between">
@@ -59,3 +59,5 @@ export function Header({ title, links }: HeaderProps) {
     </header>
   );
 }
+
+export default Header;

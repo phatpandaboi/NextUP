@@ -22,6 +22,13 @@ NextUP is a web application for viewing prospect stats, rankings, and scouting e
   /src
     /assets
     /components
+      /ui (shadcn-ui imports)
+      /example-component (folders for each component)
+        ExampleComponent.stories.tsx
+        ExampleComponent.test.tsx
+        ExampleComponent.tsx
+        index.ts
+      ...
     /config
     /lib - (or util)
     /pages
